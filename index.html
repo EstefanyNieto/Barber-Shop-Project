@@ -9,51 +9,51 @@
 <body>
  <header>  
 
-  //navigation//
+  <!---Navigation--->
 
   <nav>
     <ul class="About">
       <li>
-        <a href="Services and Prices">Services and Prices</a>
+        <a href="#services and prices">Services and Prices</a>
       </li>
       <li>
-        <a href="Barbers">Barbers</a>
+        <a href="#Barbers">Barbers</a>
       </li>
       <li>
-        <a href="Contacts">Contacts</a>
+        <a href="#Contacts">Contacts</a>
       </li>
     </ul>
   </nav>
   <ul class="contact-us">
     <li>
-      <a href="+38 044 111 11 11">+38 044 111 11 11</a>
+      <a href="tel:+380441111111">+38 044 111 11 11</a>
     </li>
     <li>
-      <a href="BOOK A SERVICE">BOOK A SERVICE</a>
+      <button type="button">BOOK A SERVICE</button>
     </li>
   </ul>
  </header>
 <main>
   <section class="main-tittle-section">
-    <h5 class="brief-description">
-    A HAIR SALON FOR MEN IN KYIV</h5>
+    <span class="brief-description">
+    A HAIR SALON FOR MEN IN KYIV</span>
     <h1 class="main-title">
       BarberShop</h1>
-      <h3 class="overview-description">
+      <p class="overview-description">
         We are experts in trendy men's haircuts.
         We work quickly, carefully, and tastefully.
-      </h3>
+      </p>
 </section>
 </main>
 
-//A briew description about the best barbershop//
+<!---A briew description about the best barbershop--->
 
 <section class="about_us-section">
- <h5 class="About">ABOUT</h5>
-<h1 class="descriptive-tittle">The Best Barbershop<br>in Your city</br></h1>
-<h3 class="overview-title">
+ <span class="About">ABOUT</span>
+<h2 class="descriptive-tittle">The Best Barbershop<br>in Your city</h2>
+<p class="overview-title">
   If you want to add more confidence to your image, you are definitely in the right place.
-</h3>
+</p>
 <p class="overview-paragraph">
   we are a team that never rests on its laurels and years for change.<br>
   And once you fall into the hands of our master, you will never be the same again.<br>
@@ -69,14 +69,14 @@
   </li>
 </ul>
 
-<button>BOOK A SERVICE</button>
+<button type=button>BOOK A SERVICE</button>
 </section>
 
-// services and prices section//
+<!---services and prices section--->
 
-<section>
-  <h5>SPEND TIME IN THE COMPANY OF THE BEST CRAFTSMEN</h5><span>
-    <h2>Services and Prices</h2>
+<section id="prices">
+  <span>SPEND TIME IN THE COMPANY OF THE BEST CRAFTSMEN</span>
+    <p>Services and Prices</p>
     <div class="row">
       <div class="column-one">
         Men's haircuts
@@ -106,44 +106,48 @@
     <button>BOOK A SERVICE</button>
 </section>
 
-// why do people come to us section//
+<!---why do people come to us section--->
 
 <section>
-  <h5>OLD SCHOOL</h5><span>
-    <h1>Why do they come to us?</h1>
+  <span>OLD SCHOOL</span>
+    <h2>Why do they come to us?</h2>
     <p>Only good things are said about us. But it is better
       to see and feel 1 time than to read 10 minutes.
     </p>
-  </span>
+  
 
-<div class="row">
+<ul class="row">
   <div class="column-blockone">
-    <h1>600</h1>
-    <p>satisfied Customers<span>
+    <li>
+    <h3>600</h3>
+    <p>satisfied Customers
       per Day
-    </span>
     </p>
-    <h1>20</h1>
-    <p>The Best Barbers<span>
-      of Kyiv</span>
+    </li>
+    <li>
+    <h3>20</h3>
+    <p>The Best Barbers of Kyiv</p>
+    </li>
   </div>
-  <div class="column-blocktwo"></div>
-  <h1>50</h1>
-  <p>Excellent Service<span>
-    Awards
-  </span></p>
-  <h1>100</h1>
-  <p>Gifts for Regular<span>
-    Customers
-  </span></p>
-</div>
+  <div class="column-blocktwo">
+  <li>
+  <h3>50</h3>
+  <p>Excellent Service
+    Awards</p>
+  </li>
+  <li>
+  <h3>100</h3>
+  <p>Gifts for Regular Customers</p>
+  </li>
+  </div>
+</ul>
 </section>
 
-//our barbers section//
+<!---our barbers section--->
 
 <section>
-  <h5>FOR TRUE CONNOISSEURS OF THE ATMOSPHERE</h5>
-  <h1>Our Barbers</h1>
+  <span>FOR TRUE CONNOISSEURS OF THE ATMOSPHERE</span>
+  <h2>Our Barbers</h2>
  <div class="container-ourbarbers">
 <ul>
   <li>
@@ -165,9 +169,9 @@
   </div>
 </section>
 
-// Our barbers in action section//
+<!---Our barbers in action section--->
 <section>
-  <h5>IN LATIN,"BARBA" MEANS "BEARD"</h5>
+  <span>IN LATIN,"BARBA" MEANS "BEARD"</span>
   <ul>
     <li>
       <img src="images/barberfour.jpg" alt="barberfour" width="270" height="360">
@@ -184,10 +188,11 @@
 </ul>
 </section>
 
-// footer section//
 
-<footer>
-  <h1>Book a Service</h1>
+<!---contact us section--->
+
+<section>
+  <h2>Book a Service</h2>
   <ul>
     <li>
       <a href="name:">NAME*</a>
@@ -201,25 +206,38 @@
     <button>SEND</button>
   </ul>
 <address>
-  <h1>Contacts</h1>
+  <h2>Contacts</h2>
   <ul>
     <li>
-      <a href="Main Street, 7A
-      Kyiv, 08132">Main Street, 7A
-      Kyiv, 08132</a>
+      <a href=https://goo.gl/maps/VqRYZgV6FrKuTh6w6>Baseina St, 19, Kyiv, Ukraine, 01004</a>
     </li>
     <li>
-      <a href="tel:+38 044 111 11 11 ">+38 044 111 11 11</a>
+      <a href="tel:+380441111111">+38 044 111 11 11</a>
     </li>
     <li>
-      <a href="mail:barbershop@email.com">barbershop@email.com</a>
+      <a href="mailto:barbershop@email.com">barbershop@email.com</a>
     </li>
   </ul>
 </address>
 <span>
-  <h5>WORKING HOURS</h5>
+  WORKING HOURS
 </span>
 <p>
   Daily from 9:00 AM till 22:00 PM
 </p>
+</section>
+</main>
+
+<!---footer-->
+
+<footer>
+  <p>copyright</p>
+  <ul>
+    <li>
+      <a href="#">Instagram</a>
+      <a href="#">Youtube</a>
+</li>
+  </ul>
 </footer>
+</body>
+</html>
